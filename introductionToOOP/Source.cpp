@@ -74,6 +74,15 @@ void main()
 	cout << "Расстояние между точками 'B' и 'A':\t" << distance(B, A) << endl;
 	
 #endif DISTANCE_CHECK
+	int a = 2;
+	int b = 3;
+	int c = a + b;
+	cout << c << endl;
+
+	Point A(2, 3);
+	Point B(7, 8);
+	Point C = A + B;
+	C.print();
 }
 
 /*
